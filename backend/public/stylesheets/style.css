@@ -1,0 +1,137 @@
+body {
+    padding: 0px 40px;
+    font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+    margin: 0px;
+  }
+  
+  a {
+    color: #00B7FF;
+  }
+  
+  h1.header{
+    font-size: 3em;
+    text-align: center;
+    margin: 15 px;
+  }
+  
+  .container {
+    background-color: rgb(156, 151, 151);
+    margin-left :auto;
+    margin-right: auto;
+    height:50%;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+  
+  }
+  
+  .attribute{
+    font-size:20px;
+  }
+  
+  .attribute-details{
+    font-size:20px;
+  }
+  
+  img{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    height:200px;
+    width: 200px;
+  }
+  
+  .div-btn{
+    margin-top: 20px;
+    margin-left: 220px;
+  }
+  
+  .button-details{
+    font-size: 15px;
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border-color: transparent;
+    cursor: pointer;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .container-details{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(156, 151, 151);
+    margin-left :auto;
+    margin-right: auto;
+    height: 30%;
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+  }
+  
+  .img-details{
+    align-self: center;
+    height: 200px;
+    width: 380px;
+  }
+  
+  .button-adopt{
+    font-size: 15px;
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    border-color: transparent;
+    cursor: pointer;
+  }
+  
+  .text-adopt{
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  .container-adopt{
+    border-style: solid;
+    width: 400px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  
+  .div-id{
+    width: 400px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+  }
+  
+  .id-text{
+    width: 360px;
+    border-style: solid;
+    border-color: black;
+  }
+  
+  .adopt-btn{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 30px;
+    border-color: black;
+    cursor: pointer;
+  }

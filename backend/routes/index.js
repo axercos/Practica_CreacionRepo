@@ -18,8 +18,13 @@ const JsonError = {
 //Metodo para obtener la informacion de la colleccion
 route.get('/getAll', async function(req, resp, next){
     const info = await databaseAPI.getAll();
-    resp.send(info);
-    resp.send(JsonSuccess);
+    resp.render('home', {info});
+    //resp.send(info);
+    //resp.send(JsonSuccess);
+});
+
+route.get('/login', (_,resp)=>{
+    resp.render('login');
 });
 
 //Metodo post para insertar datos
